@@ -1,12 +1,28 @@
+aid: event-sourcing
 name: Event Sourcing
-description: Event Sourcing is a specialized technology or methodology in the event
-  domain that addresses specific technical or business requirements. It provides targeted
-  capabilities that help practitioners and organizations solve problems and improve
-  outcomes in their area of focus.
-url: null
+description: >-
+  Event sourcing is an architectural pattern where state changes are stored as
+  a sequence of immutable events rather than just the current state. Instead of
+  storing only the current state of data, event sourcing stores all changes as
+  a log of events, enabling complete audit trails, temporal queries, and
+  event-driven projections.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-- Event Sourcing
-created: '2025'
-modified: '2025'
+  - Event Sourcing
+  - Architecture
+  - CQRS
+  - Distributed Systems
+url: https://martinfowler.com/eaaDev/EventSourcing.html
+created: '2025-01-01'
+modified: '2026-03-16'
+position: Consumer
+access: 3rd-Party
+specificationVersion: '0.19'
 apis: []
-common: []
+common:
+  - type: Website
+    url: https://martinfowler.com/eaaDev/EventSourcing.html
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
