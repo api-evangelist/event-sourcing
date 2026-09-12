@@ -1,4 +1,5 @@
 aid: event-sourcing
+x-type: concept
 name: Event Sourcing
 description: >-
   Event sourcing is an architectural pattern where state changes are stored as
